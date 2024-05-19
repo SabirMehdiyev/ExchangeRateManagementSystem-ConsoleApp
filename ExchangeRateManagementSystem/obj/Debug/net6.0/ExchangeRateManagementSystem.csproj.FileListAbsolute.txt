@@ -1,0 +1,15 @@
+C:\Users\Sabir\Desktop\PB303\ExchangeRateManagementSystem\ExchangeRateManagementSystem\bin\Debug\net6.0\ExchangeRateManagementSystem.exe
+C:\Users\Sabir\Desktop\PB303\ExchangeRateManagementSystem\ExchangeRateManagementSystem\bin\Debug\net6.0\ExchangeRateManagementSystem.deps.json
+C:\Users\Sabir\Desktop\PB303\ExchangeRateManagementSystem\ExchangeRateManagementSystem\bin\Debug\net6.0\ExchangeRateManagementSystem.runtimeconfig.json
+C:\Users\Sabir\Desktop\PB303\ExchangeRateManagementSystem\ExchangeRateManagementSystem\bin\Debug\net6.0\ExchangeRateManagementSystem.dll
+C:\Users\Sabir\Desktop\PB303\ExchangeRateManagementSystem\ExchangeRateManagementSystem\bin\Debug\net6.0\ExchangeRateManagementSystem.pdb
+C:\Users\Sabir\Desktop\PB303\ExchangeRateManagementSystem\ExchangeRateManagementSystem\obj\Debug\net6.0\ExchangeRateManagementSystem.csproj.AssemblyReference.cache
+C:\Users\Sabir\Desktop\PB303\ExchangeRateManagementSystem\ExchangeRateManagementSystem\obj\Debug\net6.0\ExchangeRateManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sabir\Desktop\PB303\ExchangeRateManagementSystem\ExchangeRateManagementSystem\obj\Debug\net6.0\ExchangeRateManagementSystem.AssemblyInfoInputs.cache
+C:\Users\Sabir\Desktop\PB303\ExchangeRateManagementSystem\ExchangeRateManagementSystem\obj\Debug\net6.0\ExchangeRateManagementSystem.AssemblyInfo.cs
+C:\Users\Sabir\Desktop\PB303\ExchangeRateManagementSystem\ExchangeRateManagementSystem\obj\Debug\net6.0\ExchangeRateManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\Sabir\Desktop\PB303\ExchangeRateManagementSystem\ExchangeRateManagementSystem\obj\Debug\net6.0\ExchangeRateManagementSystem.dll
+C:\Users\Sabir\Desktop\PB303\ExchangeRateManagementSystem\ExchangeRateManagementSystem\obj\Debug\net6.0\refint\ExchangeRateManagementSystem.dll
+C:\Users\Sabir\Desktop\PB303\ExchangeRateManagementSystem\ExchangeRateManagementSystem\obj\Debug\net6.0\ExchangeRateManagementSystem.pdb
+C:\Users\Sabir\Desktop\PB303\ExchangeRateManagementSystem\ExchangeRateManagementSystem\obj\Debug\net6.0\ExchangeRateManagementSystem.genruntimeconfig.cache
+C:\Users\Sabir\Desktop\PB303\ExchangeRateManagementSystem\ExchangeRateManagementSystem\obj\Debug\net6.0\ref\ExchangeRateManagementSystem.dll
