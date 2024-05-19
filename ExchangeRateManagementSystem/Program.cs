@@ -31,7 +31,29 @@
                 }
                 else if (userCommand == "/find-currency-rate-by-code")
                 {
-
+                    bool currencySelected = false;
+                    while (currencySelected == false)
+                    {
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.WriteLine("Zehmet olmasa valyuta seçin (USD, RUB, TRY)");
+                        string selectedCurrency = Console.ReadLine();
+                        int i = 0;
+                        while (i < currencies.Length)
+                        {
+                            if (currencies[i] == selectedCurrency)
+                            {
+                                Console.WriteLine($"1 {currencies[i]} = {exchangeRates[i]} AZN");
+                                currencySelected = true;
+                                break;
+                            }
+                            i++;
+                        }
+                        if (currencySelected == false)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine("Duzgun valyuta daxil edin!!!!");
+                        }
+                    }
                 }
                 else if (userCommand == "/calculate-amount-by-currency")
                 {
