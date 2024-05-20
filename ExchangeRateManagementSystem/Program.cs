@@ -57,7 +57,47 @@
                 }
                 else if (userCommand == "/calculate-amount-by-currency")
                 {
-
+                    bool correctAmountEntered = false;
+                    while (correctAmountEntered == false)
+                    {
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.WriteLine("Meblegi daxil edin:");
+                        decimal amount;
+                        if (decimal.TryParse(Console.ReadLine(), out amount) && amount >= 0)
+                        {
+                            bool validCurrencySelected = false;
+                            while (validCurrencySelected == false)
+                            {
+                                Console.ForegroundColor = ConsoleColor.White;
+                                Console.WriteLine("Valyutani daxil edin (USD, RUB, TRY):");
+                                string selectedCurrency = Console.ReadLine();
+                                int i = 0;
+                                while (i < currencies.Length)
+                                {
+                                    if (currencies[i] == selectedCurrency)
+                                    {
+                                        decimal result = amount / exchangeRates[i];
+                                        Console.ForegroundColor = ConsoleColor.Green;
+                                        Console.WriteLine($"{amount}AZN = {result}{selectedCurrency}");
+                                        validCurrencySelected = true;
+                                        break;
+                                    }
+                                    i++;
+                                }
+                                if (validCurrencySelected == false)
+                                {
+                                    Console.ForegroundColor = ConsoleColor.Red;
+                                    Console.WriteLine("Valyutani duzgun daxil edin!!");
+                                }
+                            }
+                            correctAmountEntered = true;
+                        }
+                        else
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine("Mebleg 0dan kicik ola bilmez! Duzgun daxil edin!!");
+                        }
+                    }
                 }
                 else if (userCommand == "/exit")
                 {
